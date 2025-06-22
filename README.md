@@ -1,3 +1,4 @@
 # AIML MINI PROJECTS
 
-- AI PING PONG
+- AI Ping Pong
+- Salary Prediction using Linear Regression
