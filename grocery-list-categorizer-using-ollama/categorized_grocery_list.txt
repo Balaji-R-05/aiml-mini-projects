@@ -1,0 +1,48 @@
+Fruits:  
+1. Apples  
+2. Bananas  
+3. Strawberries  
+
+Vegetables:  
+1. Broccoli  
+2. Carrots  
+3. Lettuce  
+4. Onions  
+5. Potatoes  
+6. Spinach  
+7. Tomatoes  
+
+Dairy:  
+1. Butter  
+2. Cheese  
+3. Milk  
+4. Yogurt  
+
+Meat:  
+1. Chicken Breast  
+2. Ground Beef  
+3. Salmon  
+
+Grains:  
+1. Breads  
+2. Cereal  
+3. Pasta  
+4. Rice  
+
+Snacks:  
+1. Almonds  
+
+Beverages:  
+1. Coffee Powder  
+2. Orange Juice  
+3. Tea Powder  
+
+Frozen Foods:  
+None  
+
+Condiments:  
+None  
+
+Other:  
+1. Eggs  
+2. Sugar

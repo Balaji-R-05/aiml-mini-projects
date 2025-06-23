@@ -9,7 +9,8 @@ This repository includes AI and ML-focused mini projects ranging from simple ML 
 | `House Price Prediction`      | Predicting house price based on area using **linear regression**.     |
 | `Salary Price Prediction`     | Predicting salary based on experience using **linear regression**.    |
 | `Laptop Price Prediction`     | Learned advanced **data preprocessing** and **feature engineering**. |
-
+| `Startup Profit Prediction`   | Predicting profit using **mutiple regression** and **categorical encoding**.  |
+| `Grocery List Categorizer`    | Using **ollama** to categorize grocery items   |
 
 
 
