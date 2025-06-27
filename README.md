@@ -11,10 +11,8 @@ This repository includes AI and ML-focused mini projects ranging from simple ML 
 | `Laptop Price Prediction`     | Learned advanced **data preprocessing** and **feature engineering**. |
 | `Startup Profit Prediction`   | Predicting profit using **mutiple regression** and **categorical encoding**.  |
 | `Grocery List Categorizer`    | Using **ollama** to categorize grocery items   |
-
-
-
-
+| `Review-Sentiment-Analysis`   | Sentiment analysis using **MultinomialNB** and **CountVectorizer** |
+| `Sales Data Analysis`         | Simple data analysis using bar and pie chart  |
 
 
 
