@@ -1,0 +1,2 @@
+2025-07-06 17:30:45,936 - Input: {'sepal_length': 1.0, 'sepal_width': 1.0, 'petal_length': 1.0, 'petal_width': 1.0} | Prediction: setosa
+2025-07-06 17:31:19,802 - Input: {'sepal_length': 6.1, 'sepal_width': 2.8, 'petal_length': 4.7, 'petal_width': 1.2} | Prediction: versicolor
