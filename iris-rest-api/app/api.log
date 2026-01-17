@@ -1,0 +1,5 @@
+2026-01-17 15:05:53,763 - INFO - Health check called | model_loaded=True
+2026-01-17 15:06:14,224 - INFO - Input: {'sepal_length': 5.1, 'sepal_width': 3.5, 'petal_length': 1.4, 'petal_width': 0.2} | Prediction: setosa
+2026-01-17 15:07:50,799 - INFO - Model loaded successfully
+2026-01-17 15:07:50,956 - INFO - Model loaded successfully
+2026-01-17 15:22:10,318 - INFO - Health check called | model_loaded=True

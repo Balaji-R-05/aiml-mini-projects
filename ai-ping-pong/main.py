@@ -23,8 +23,6 @@ BALL_SPEED_Y = 5
 # Winning score
 WINNING_SCORE = 5
 
-
-
 class Paddle:
     def __init__(self, x, y):
         self.rect = pygame.Rect(x, y, PADDLE_WIDTH, PADDLE_HEIGHT)
@@ -33,7 +31,7 @@ class Paddle:
         if self.rect.top > 0:
             self.rect.y -= PADDLE_SPEED
 
-    def move_down(self):
+    def move_down(self):    
         if self.rect.bottom < SCREEN_HEIGHT:
             self.rect.y += PADDLE_SPEED
 
@@ -102,9 +100,8 @@ def main():
     right_score = 0
 
     paused = False
-
-
     running = True
+
     while running:
         clock.tick(60)
         screen.fill(COLOR_BLACK)

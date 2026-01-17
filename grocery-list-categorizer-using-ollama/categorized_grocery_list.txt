@@ -1,48 +1,48 @@
-Fruits:  
-1. Apples  
-2. Bananas  
-3. Strawberries  
+Fruits:
+    1. Apples
+    2. Bananas
+    3. Strawberries
 
-Vegetables:  
-1. Broccoli  
-2. Carrots  
-3. Lettuce  
-4. Onions  
-5. Potatoes  
-6. Spinach  
-7. Tomatoes  
+Vegetables:
+    1. Broccoli
+    2. Carrots
+    3. Lettuce
+    4. Onions
+    5. Potatoes
+    6. Spinach
+    7. Tomatoes
 
-Dairy:  
-1. Butter  
-2. Cheese  
-3. Milk  
-4. Yogurt  
+Dairy:
+    1. Cheese
+    2. Eggs
+    3. Milk
+    4. Yogurt
 
-Meat:  
-1. Chicken Breast  
-2. Ground Beef  
-3. Salmon  
+Meat:
+    1. Chicken Breast
+    2. Ground Beef
+    3. Salmon
 
-Grains:  
-1. Breads  
-2. Cereal  
-3. Pasta  
-4. Rice  
+Grains:
+    1. Breads
+    2. Cereal
+    3. Pasta
+    4. Rice
 
-Snacks:  
-1. Almonds  
+Snacks:
+    1. Almonds
+    2. Coffee Powder
+    3. Tea Powder
+    4. Sugar
 
-Beverages:  
-1. Coffee Powder  
-2. Orange Juice  
-3. Tea Powder  
+Beverages:
+    1. Orange Juice
 
-Frozen Foods:  
-None  
+Frozen Foods:
+    None
 
-Condiments:  
-None  
+Condiments:
+    None
 
-Other:  
-1. Eggs  
-2. Sugar
+Other:
+    1. Butter

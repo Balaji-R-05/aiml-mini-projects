@@ -1,27 +1,52 @@
-# Iris REST API
+# Iris Species Prediction API
 
-A simple FastAPI-based REST API for predicting Iris flower species using a trained **RandomForest** model.
+A FastAPI-based REST API that predicts Iris flower species using a RandomForest classifier. This application is fully dockerized for easy deployment.
 
 ## Project Structure
 
+- `app/`: Contains the application code (main.py, schema.py, Dockerfile).
+- `app/model/`: Contains the trained model file.
+- `app/requirements.txt`: Python dependencies.
+
+## Setup
+
+1. Navigate to the `app` directory:
+   ```bash
+   cd app
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Train the model:
+   ```bash
+   python train_model.py
+   ```
+
+## Running the Application
+
+### Locally
+Run the following command in the `app/` directory:
+```bash
+fastapi dev main.py
 ```
-ml-api/
-│
-├── model/
-│   └── train_model.py      # Script to train and save the model
-│   └── iris_model.pkl      # Trained model file
-├── app/
-│   └── main.py             # FastAPI app
-│   └── schema.py           # Input data schema using Pydantic
-├── requirements.txt        # All dependencies
-└── README.md               # Optional documentation
+The API will be available at `http://127.0.0.1:8000`.
+
+### With Docker
+Build and run the container from the `app/` directory:
+```bash
+docker build -t iris-rest-api .
+docker run -p 8000:8000 iris-rest-api
 ```
 
-### POST `/predict`
+## API Endpoints
 
-Predict the species of an Iris flower.
+### POST /predict
+Predicts the species based on sepal and petal measurements.
 
-**Request Body (JSON):**
+**Request Body:**
 ```json
 {
   "sepal_length": 5.1,
@@ -37,13 +62,24 @@ Predict the species of an Iris flower.
   "prediction": "setosa",
   "class_index": 0,
   "probabilities": {
-    "setosa": 0.98,
-    "versicolor": 0.01,
-    "virginica": 0.01
+    "setosa": 1.0,
+    "versicolor": 0.0,
+    "virginica": 0.0
   }
 }
 ```
 
-## Logging
+### GET /health
+Checks the health of the service.
 
-All prediction requests are logged asynchronously to `api.log`.
+**Response:**
+```json
+{
+  "status": "ok",
+  "model_loaded": true,
+  "service": "iris-classifier-api"
+}
+```
+
+## Logging
+Prediction requests are logged to `api.log` in the application directory.

@@ -14,7 +14,7 @@ This repository includes AI and ML-focused mini projects ranging from simple ML 
 | `Grocery List Categorizer`  | Using **ollama** to categorize grocery items                                                               |
 | `Review-Sentiment-Analysis` | Sentiment analysis using **MultinomialNB** and **CountVectorizer**                                         |
 | `Sales Data Analysis`       | Simple data analysis using **bar** and **pie chart**                                                       |
-| `Iris REST API`             | A simple FastAPI-based REST API for predicting Iris flower species using a **RandomForest** model. |
+| `Iris REST API`             | A simple FastAPI-based REST API for predicting Iris flower species using a **RandomForest** model. Fully dockerized |
 
 ## ⚙️ Running the Projects
 
