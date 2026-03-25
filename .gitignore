@@ -10,7 +10,6 @@ __pycache__/
 
 # Jupyter Notebook
 .ipynb_checkpoints
-*.ipynb
 
 # Distribution / packaging
 build/
