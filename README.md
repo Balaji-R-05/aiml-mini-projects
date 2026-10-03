@@ -7,6 +7,8 @@ This repository features a curated collection of AI and ML-focused mini projects
 | Project Name                | Description                                                                                                | Tech Stack                               |
 | --------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
 | `AI Ping Pong`              | A simple computer vs human ping-pong game.                                                                 | Python, Pygame                           |
+| `Population EDA`            | Exploratory data analysis of demographic and population trends.                                            | Python, Pandas, Matplotlib               |
+| `Titanic EDA`               | Exploratory analysis of the Titanic dataset, including survival patterns and feature relationships.         | Python, Pandas, Seaborn                  |
 | `House Price Prediction`    | Predicting house price based on area using linear regression.                                              | Python, Scikit-learn, Pandas             |
 | `Salary Price Prediction`   | Predicting salary based on experience using linear regression.                                             | Python, Scikit-learn, Pandas             |
 | `Laptop Price Prediction`   | Advanced data preprocessing and feature engineering for price estimation.                                  | Python, Scikit-learn, Seaborn            |
