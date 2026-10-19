@@ -17,6 +17,7 @@ This repository features a curated collection of AI and ML-focused mini projects
 | `Review-Sentiment-Analysis` | Sentiment analysis using MultinomialNB and CountVectorizer.                                                | Python, NLTK, Scikit-learn               |
 | `Sales Data Analysis`       | Descriptive data analysis with visualization.                                                              | Python, Matplotlib, Seaborn              |
 | `Iris REST API`             | FastAPI-based REST API for flower species prediction. Fully dockerized.                                    | FastAPI, Docker, RandomForest            |
+| `Data Patterns AI`          | arXiv paper collector that searches, downloads PDFs, and indexes metadata matching "power distribution".   | Python, Selenium, Pandas, BeautifulSoup  |
 
 ## 🚀 Getting Started
 
