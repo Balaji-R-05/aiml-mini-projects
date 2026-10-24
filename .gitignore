@@ -24,3 +24,6 @@ htmlcov/
 # IDEs
 .vscode/
 .idea/
+
+# TinyGPT
+TinyGPT/data.txt
